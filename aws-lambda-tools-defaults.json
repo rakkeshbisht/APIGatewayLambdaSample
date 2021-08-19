@@ -1,0 +1,9 @@
+
+{
+    "region" : "us-east-1",
+    "profile" : "rbisht",
+    "s3-bucket" : "sample-bucket-rakesh-s3",
+    "template"  : "serverless.template",
+    "template-parameters" : "\"ShouldCreateBucket\"=\"false\";\"BucketName\"=\"\"",
+    "stack-name"          : "sample-lambda-app"
+}
